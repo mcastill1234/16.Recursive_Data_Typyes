@@ -5,6 +5,9 @@
 
 public interface ImList<E> {
 
+    // Data type definition:
+    //      ImList<E> = Empty + Cons(first:E, rest:ImList)
+
     /**
      * Create an empty list.
      *
